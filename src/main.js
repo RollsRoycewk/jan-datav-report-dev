@@ -6,6 +6,7 @@ import './plugins/element.js'
 import "./plugins/vcharts"
 import * as Echarts from 'echarts';
 import ECharts from 'vue-echarts'
+import "./style/index.css";
 
 Vue.config.productionTip = false
 Vue.prototype.$echarts = Echarts
